@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 // Connect to MongoDB database
 mongoose
-	.connect("mongodb+srv://barpedia:pennstate@cluster0.9ngoo.mongodb.net/Barpedia?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
+	.connect("mongodb+srv://barpedia:Rexandcam3@cluster0.9ngoo.mongodb.net/Barpedia?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true })
 	.then(() => {
 	const app = express()
 	const bodyParser = require("body-parser");
